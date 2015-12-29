@@ -38,7 +38,7 @@ dragdrop.on('addfeatures', function(event) {
 var ol3d = new olcs.OLCesium(map); // map is the ol.Map instance
 var scene = ol3d.getCesiumScene();
 var terrainProvider = new Cesium.CesiumTerrainProvider({
-  url: '//cesiumjs.org/stk-terrain/tilesets/world/tiles'
+  url: '//assets.agi.com/stk-terrain/world'
 });
 scene.terrainProvider = terrainProvider;
 
